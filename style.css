@@ -1,0 +1,134 @@
+body {
+  background: linear-gradient(to right, rgb(155, 252, 228),rgb(162, 242, 134));
+  font-family: 'Slabo 27px', serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(64, 37, 226);
+}
+
+a:visited {
+  color: rgb(232, 44, 219);
+}
+
+a:hover {
+  color: red;
+  font-style: italic;
+}
+
+header, footer {
+  width: 960px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+footer {
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 600px;
+  position: relative;
+  left: 20%;
+}
+
+@media screen and (min-width: 1500px) { /* for giant monitors */
+  header {width: auto; display: block; margin-left: auto; margin-right: auto; margin-bottom: 10px;}
+  footer {display: block; margin-left: auto; margin-right: auto; left: 0%; max-width: 1200px; border: 5px solid black;}
+}
+
+footer p {
+  text-align: center;
+}
+
+@media screen and (min-width: 1500px) { /* for giant monitors */
+  footer p {font-size: 150%;}
+}
+
+article {
+  border: 1px solid black;
+  border-radius: 10px;
+  float: left;
+  width: 300px;
+  margin: 60px;
+  max-height: 400px;
+  padding: 10px;
+  overflow: auto;
+}
+
+@media screen and (min-width: 1500px) { /* for giant monitors */
+  article {position: relative; top: 50px; margin-top: 50px; left: -400px; margin-bottom: 150px;}
+  .l-art1 {left: -400px;}
+}
+
+.footer-is-different {
+  font-weight: bold;
+  background-color: rgb(155, 252, 228);
+}
+
+.headline {
+  text-shadow: silver 2px 2px;
+  text-align: center;
+  font-size: 46px;
+}
+
+@media screen and (min-width: 1500px) { /* for giant monitors */
+  .headline {font-size: 60px;}
+  .footer-is-different {font-size: 25px;}
+}
+
+.headline-changed {
+  color: blue;
+}
+
+.mainList li {
+  list-style-type: none;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.mainList div {
+  float: left;
+}
+
+.mainList a {
+  color: black;
+}
+
+.mainList a:visited {
+  color: rgb(209, 27, 207);
+}
+
+@media screen and (min-width: 1500px) { /* for giant monitors */
+  .mainList {position: relative;left: 500px;}
+  .mainList li {font-size: 32px; margin-right: 30px;}
+}
+
+.dropdown_menu {
+  border: 1px solid rgb(139, 129, 145);
+  border-radius: 5px;
+  background-color: rgb(155, 252, 228);
+  margin: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown_menu a {
+  display: block;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.img-puck {
+  width: 200px;
+}
+
+.img-puck-cap {
+  text-align: center;
+  font-style: italic;
+}
+
+.art2-p1{ /* or could have just used an h1-h6 here instead */
+  font-weight: bolder;
+  font-size: 22px;
+  text-align: center;
+}

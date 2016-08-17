@@ -1,0 +1,46 @@
+#article_hmpg {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.img-puck {
+  float: right;
+  position: relative;
+  top: -180px;
+  width: 150px;
+}
+
+.img-puck-cap {
+  position: relative;
+  left: 170px;
+  bottom: 40px;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(224, 45, 206);
+}
+
+.ui-body-c {
+  min-width: 350px;
+}
+
+.ui-body-c .subhead {
+  text-align: center;
+}
+
+.ui-footer-c {
+  text-align: center;
+}
+
+.ui-title .headline {
+  font-size: 36px;
+  min-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
